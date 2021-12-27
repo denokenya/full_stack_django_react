@@ -15,6 +15,7 @@ const EditProduct = () => {
             title: title,
             price: price
         });
+        alert("Product Updated!");
         navigate.push("/");
     }
  

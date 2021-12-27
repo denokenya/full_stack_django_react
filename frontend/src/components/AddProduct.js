@@ -15,6 +15,10 @@ const AddProduct = () => {
             title: title,
             price: price
         });
+        
+        alert("Product saved!");
+
+
         navigate.push("/");
         
     }
